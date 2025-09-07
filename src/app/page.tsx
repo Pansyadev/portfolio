@@ -4,29 +4,7 @@ import ServiceCard from '@/components/ServiceCard';
 import { Workflow, Code, Lightbulb, Quote } from 'lucide-react'; // Impor ikon spesifik yang kita butuhkan
 import Link from 'next/link';
 export default function Home() {
-  const featuredProjects = [
-    {
-      title: "Otomatisasi Laporan Penjualan Harian",
-      description: "Membangun alur kerja n8n yang secara otomatis menarik data penjualan dari berbagai platform, menggabungkannya, dan mengirim laporan ringkas ke Slack setiap pagi.",
-      imageUrl: "/placeholder-project-1.jpg", // Gambar placeholder
-      projectUrl: "/studi-kasus/laporan-penjualan",
-      tags: ["n8n", "Google Sheets", "Slack API", "Otomatisasi"],
-    },
-    {
-      title: "Sinkronisasi Data CRM dan Email Marketing",
-      description: "Membuat sistem sinkronisasi dua arah antara HubSpot dan Mailchimp menggunakan n8n, memastikan data pelanggan selalu konsisten di kedua platform.",
-      imageUrl: "/placeholder-project-2.jpg", // Gambar placeholder
-      projectUrl: "/studi-kasus/sinkronisasi-crm",
-      tags: ["n8n", "HubSpot", "Mailchimp API", "Webhooks"],
-    },
-    {
-      title: "Custom Node untuk Integrasi Internal API",
-      description: "Mengembangkan Node n8n kustom menggunakan TypeScript untuk memungkinkan integrasi dengan API internal perusahaan yang tidak didukung secara default.",
-      imageUrl: "/placeholder-project-3.jpg", // Gambar placeholder
-      projectUrl: "/studi-kasus/custom-node",
-      tags: ["TypeScript", "Node.js", "n8n Core", "API Development"],
-    },
-  ];
+
   return (
    <main className="flex min-h-screen flex-col items-center justify-between p-6 sm:p-16 lg:p-24">
 
@@ -130,8 +108,8 @@ export default function Home() {
     <Quote className="w-12 h-12 mx-auto text-teal-500 mb-6" />
     <blockquote className="max-w-3xl mx-auto">
       <p className="text-xl md:text-2xl font-medium text-gray-700 italic">
-        "Bekerja dengan [Nama Anda] benar-benar mengubah cara kami beroperasi. Alur kerja otomatis yang dibangunnya berhasil menghemat lebih dari 20 jam kerja manual setiap minggu. Sangat direkomendasikan!"
-      </p>
+  ‘Bekerja dengan [Nama Anda] benar-benar mengubah cara kami beroperasi. Alur kerja otomatis yang dibangunnya berhasil menghemat lebih dari 20 jam kerja manual setiap minggu. Sangat direkomendasikan!’
+</p>
       <cite className="block mt-6 not-italic">
         <span className="font-bold text-gray-800">Nama Klien</span>
         <span className="text-gray-600">, CEO di Perusahaan Klien</span>
